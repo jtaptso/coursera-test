@@ -1,9 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myFirstApp">
 <head>
-	<title>Hello Coursera</title>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+	<script src="app.js"></script>
+	<title>My first angularJS App</title>
 </head>
 <body>
-	<h1>Hello coursera. I'm so happy and gratefull today.</h1>
+	<h1>My first AngularJS App</h1>
+	<div ng-controller="MyFirstController">
+		{{name}}
+	</div>
 </body>
 </html>
